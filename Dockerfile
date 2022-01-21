@@ -5,9 +5,7 @@ RUN     apt-get update \
         && apt-get install --no-install-recommends -y wget curl unzip iputils-ping git
 
 
-RUN     git clone https://github.com/thecloudgarage/cloudomate-backend-code.git && \
-        cd cloudomate-backend-code && \
-        pip install cloudomate
+RUN     pip install cloudomate-thecloudgarage
 
 ENV     PORT=3003
 EXPOSE  $PORT
