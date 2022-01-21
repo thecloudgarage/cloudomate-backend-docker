@@ -1,0 +1,8 @@
+version: '3'
+services:
+  cloudomate-backend:
+    image: thecloudgarage/cloudomate-backend-docker
+    ports:
+      - "3003:3003"
+    volumes:
+      - "./cloudomate_scripts:/srv/cloudomate_scripts"
