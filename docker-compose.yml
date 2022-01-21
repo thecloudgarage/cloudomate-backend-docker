@@ -5,4 +5,4 @@ services:
     ports:
       - "3003:3003"
     volumes:
-      - "./cloudomate_scripts:/srv/cloudomate_scripts"
+      - "./cloudomate_scripts:/cloudomate_scripts"
