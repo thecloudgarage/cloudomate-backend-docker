@@ -1,4 +1,4 @@
-FROM 	hypriot/rpi-python
+FROM 	python:2
 
 # install dependencies
 RUN	apt-get update \
