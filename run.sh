@@ -3,7 +3,7 @@
 PORT=3003
 
 sudo docker run -t -d \
-                -v $(pwd)/pyjojo_scripts:/pyjojo_scripts \
+                -v $(pwd)/cloudomate_scripts:/cloudomate_scripts \
                 -p $PORT:3003 \
-                --name="c3" \
+                --name="c5" \
                 thecloudgarage/cloudomate-backend-docker
